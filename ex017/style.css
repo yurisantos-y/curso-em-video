@@ -1,0 +1,28 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Medidas Absolutas e não recomendadas
+cm, mm, in, px, pt, pc
+
+Medidas relativas e recomendadas
+em, ex, rem, vw, vh, %*/
+
+body{
+    font-weight: normal;
+}
+
+/*As fontes posuem diferentes pesos(weight), como por exemplo: lighter, normal, bold e bolder
+Podemos representar os pesos atraves de valores numerico que variam de 100 a 900!*/
+
+h1{
+    /*shorthand font (Podemos "economizar linha" escrevendo o codigo em apenas uma linha)
+    - font-style -> font-weight -> font-size -> font-family
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;*/
+    
+    font: italic bolder 3em 'Arial', sans-serif;    
+}
