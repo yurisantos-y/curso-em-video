@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            background-color: lightblue;
+            height: 300px; /*height é a ALTURAAAAAAA*/
+            width: 300px; /*width é a LARGURAAAA*/
+
+            
+            /*sem shorthand. Com shorthand ficaria assim border: style  color   padding;*/
+            border-width: 10px;/*Determina a largura da borda*/
+            border-style: solid;
+            border-color: lightsalmon;
+            padding: 20px 10px 40px 60px;
+             
+            /*fazendo shorthand*/
+            margin: 10px 20px 30px 50px;
+        }
+
+        a{
+            border-width: 2px;
+            border-style: double;
+            border-color: lime;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafo também são exemplos  de box-level, mas os <a href="#"> links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
 </body>
 </html>
